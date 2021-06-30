@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<style type="text/css">
+	
+  body {
+    background-color:  hsl(218, 28%, 13%);
+    font-family: raleway;
+  }
+
+ .nav {
+  display: flex;
+  justify-content: space-around;
+ 
+}
+
+.nav > div {
+  
+  width: 100%;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+
+}
+
+  .flex-container {
+  display: flex;
+  justify-content: space-around;
+ 
+}
+
+.flex-container > div {
+  
+  width: 100px;
+  margin: 0px;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+
+  .intro {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  color: white;
+  font-size: 14;
+  font-weight: 400, 700;
+  font-family: [raleway;]
+
+}
+
+  .intro > div {
+  text-align: center;
+  justify-content: center;
+  color: white;
+  font-size: 14;
+  font-weight: 400, 700;
+  font-family: [raleway;]
+  margin: 100px;
+
+
+}
+
+.heading {
+  
+  justify-content: center;
+  color: white;
+  text-align: center;
+ 
+}
+
+.button {
+  background-color: hsl(176, 68%, 64%);
+  border: none;
+  border-radius: 30px;
+  color: white;
+  padding: 15px 70px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.illustration {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  color: white;
+  font-size: 100;
+  font-weight: 400, 700;
+  font-family: [raleway;]
+
+}
+
+  .illustration > div {
+  text-align: left;
+  justify-content: center;
+  color: white;
+  font-size: 100;
+  font-weight: 400, 700;
+  font-family: [raleway;]
+  
+  }
+
+
+.three-column {
+  display: flex;
+  justify-content: center;
+}
+
+.three-column > div {
+  background-color:hsl(219, 30%, 18%);
+  width: 500px;
+  margin: 20px;
+  padding-right: 30px;
+  padding-left: 30px;
+  text-align: left;
+  line-height: all;
+  outline-width: all;
+  color: white;
+  font-size: 15px;
+}  
+
+.profile{
+    float: left;
+    border-radius: 50%;
+    font-size:10px;    
+}
+
+
+.call-to-action{
+ background-color:hsl(216, 53%, 9%);  
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.call-to-action > div {
+  background-color: hsl(217, 28%, 15%);
+  justify-content: center;
+  color: white;
+  width: 1000px;
+  margin: 40px;
+  text-align: center;
+  line-height: all;
+  outline-width: all;
+  color: white;
+  font-size: 20px;
+}
+
+#footer{
+ background-color:hsl(216, 53%, 9%);
+ 
+}
+
+
+.button2 {
+  background-color: white;
+  border: none;
+  border-radius: 30px;
+  color: black;
+  padding: 15px 200px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button3 {
+  background-color: hsl(176, 68%, 64%);
+  border: none;
+  border-radius: 30px;
+  color: white;
+  padding: 15px 70px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+.footer-column {
+ background-color:hsl(216, 53%, 9%);
+  display: flex;
+  justify-content: center;
+}
+
+.footer-column > div {
+  background-color:hsl(216, 53%, 9%);
+
+  width: 500px;
+  margin: 40px;
+  text-align: left;
+  line-height: all;
+  outline-width: all;
+  color: white;
+  font-size: 12px;
+}  
+
+.footer-icon{
+    float: left;
+    font-size: 25px;  
+  
+}
+.footer-logo {
+  background-color:hsl(216, 53%, 9%);
+  
+
+}
+
+.footer-logo > div {
+  background-color:hsl(216, 53%, 9%);
+
+  text-align: left;
+  line-height: all;
+  outline-width: all;
+  color: white;
+  font-size: 12px;
+}
+
+</style>
+
+	<title>
+
+	</title>
+
+</head>
+
+<body>
+  <div class="nav">    
+  <div> <img src="images/fylo-logo.png" width="70px" height="30px"></div>
+
+    <div>Features &nbsp&nbsp&nbspTeam  &nbsp&nbsp&nbspSignin</div>
+</div>
+
+<br/><br/><br/><br/>
+<div class="flex-container" style=" background-image: url('images/bg-curvy-desktop.svg');">
+  <img src="images/illustration-intro.png" width="250" height="250px">
+</div>
+
+<div class="heading"> 
+  <h2>All your files in one secure location<br/> accessible anywhere</h2><p>
+<h5>  Fylo stored all your most important files in one secure location. <br/> Acess them wherever you need, share and collaborate with <br/>friends family, and co-worlers.
+</h5> </p>
+
+<a href="#" class="button">Get Started</a>
+
+</div>
+
+
+
+  <br/><br/>
+
+<!--Decriptions-->
+  <div class="flex-container">    
+  <div> <img src="images/icon-access-anywhere.svg" width="70" height="70"></div>
+
+    <div><img src="images/icon-security.svg" width="70" height="70"></div>
+</div>
+
+        <div class="intro"> 
+  <div><h2>Acess your files, anywhere</h2><p> The ability to use a smartphone, tablet or computer<br/>to access your account means your files follow you<br/>everywhere</p></div>
+
+  <div><h2>Security you can trust</h2><p> 2-factor authentication and user-controlled encryotion are<br/> just a couple of the security features we allow to help<br/>secure you files</p></div>
+
+</div>
+<br/><br/>
+<!--description 2-->
+<div class="flex-container">    
+  <div> <img src="images/icon-collaboration.svg" width="70" height="70"></div>
+
+    <div><img src="images/icon-any-file.svg" width="70" height="70"></div>
+</div>
+
+        <div class="intro"> 
+  <div><h2>Real-time collaboration</h2><p> Securely share files and folder with friends, family and<br/>colleagues for live collboration. No email attachments is<br/>required</p></div>
+
+  <div><h2>Store any type of file</h2><p> Whether you're sharing holidays photos or work<br/> documents, Fylo has you covered allowing for all file <br/>types to be securely stored and shared</p></div>
+
+</div>
+
+<br/><br/><br/>
+
+<!--Stay Productive Illustration-->
+<div class="illustration">    
+  <div> <img src="images/illustration-stay-productive.png" width="650px" height="500px"></div>
+
+    <div><br/><br/><h1>&nbsp&nbspStay productive, <br/>&nbsp&nbspwherever you are</h1>
+      <h3> &nbsp&nbsp&nbsp&nbsp&nbspNever let location be an issue when accessing your files, Flyo has you<br/> &nbsp&nbsp&nbsp&nbsp&nbspcovered for all your file storage need. <p>&nbsp&nbsp&nbsp&nbsp&nbspSecurely share files and folders with friends, family and colleadues for &nbsp&nbsp&nbsp&nbsp&nbsplive collaboration. No email attachments required. </p><br/> 
+
+      &nbsp&nbsp&nbsp&nbsp&nbsp<u>See how Flyo works</u></h3> </div>
+</div>
+
+<br/><br/>
+<div class="three-column">    
+  
+  <div><br/><br/> Fylo has improved ou team productiity by an order of magnitude. Since making the switch, our team has become a well-oiled collboration machine.
+    <p>&nbsp&nbsp&nbsp<img src="images/profile-1.jpg" class="profile" width="40" height="40"> &nbsp&nbsp&nbspSatish Patel <br/> &nbsp&nbsp&nbsp<small> &nbsp&nbsp&nbsp&nbspFounder and CEO, Huddie.</small> </p>
+
+  </div>
+
+
+  <div>  <br/><br/>Fylo has improved ou team productiity by an order of magnitude. Since making the switch, our team has become a well-oiled collboration machine.
+    <p>&nbsp&nbsp&nbsp<img src="images/profile-2.jpg" class="profile" width="40" height="40" style="font-size:10px";> &nbsp&nbsp&nbspBruce McKenzie &nbsp&nbsp&nbsp<br/> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspFounder and CEO, Huddie</p>
+  </div>
+
+
+  <div>  <br/><br/>Fylo has improved ou team productiity by an order of magnitude. Since making the switch, our team has become a well-oiled collboration machine.
+    <p>&nbsp&nbsp&nbsp<img src="images/profile-3.jpg" class="profile" width="40" height="40"> &nbsp&nbsp&nbspIva Boyd <br/> <small>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspFounder and CEO, Huddie.</small> </p>
+  </div>
+
+</div>
+
+
+</body>
+
+<footer>
+<div class="call-to-action" > 
+
+<div>
+<h1> Get Early Acess today</h1>  <p> It only takes a minute to sign up and our free startup tier is extremely generous. If you have any 
+<br/> questions, our support team would be happy to help you.  </p> <br/> <input type="email" class="button2" placeholder="johnappleseed#mail.com" name=""> <button class="button3"> Get Started For Free</button>
+<br/><br/>
+</div>
+</div>
+  
+<div class="footer-logo">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<img src="images/fylo-logo.png" width="70px" height="30px"></div>
+
+
+<div class="footer-column">
+
+<div><ion-icon name="location-outline" style="font-size:15px;" class="footer-icon"> </ion-icon> 
+ &nbsp&nbsp&nbspLorem ipsum dolor sit amet, &nbsp&nbsp&nbspconsectetur adipisicing elit, &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspsed do eiusmod tempor &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspincididunt ut labore et dolore &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspmagna aliqua.
+</div>
+
+  <div><ion-icon name="call-outline" style="font-size:15px" class="footer-icon"></ion-icon> &nbsp&nbsp&nbsp+1-543-123-456 
+<p><ion-icon name="mail-outline" style="font-size:15px" class="footer-icon"></ion-icon>&nbsp&nbsp&nbsp example@fylo.com</p>
+
+  </div>
+
+  <div> <p>About US</p>
+    <p>Jobs</p>
+    <p>Press</p>
+    <p>Blog</p>
+  </div>
+
+  <div> <p>Contact US</p>
+    <p>Terms</p>
+    <p>Privacy</p>
+  </div>
+  
+<div><ion-icon name="logo-facebook" style=" font-size: 25px;"></ion-icon> <ion-icon name="logo-twitter" style="font-size: 25px;"></ion-icon> <ion-icon name="logo-instagram" style=" font-size:25px;"></ion-icon> </div>
+
+</footer>
+</html>
